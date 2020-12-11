@@ -1,0 +1,43 @@
+label{
+
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Ranchers', cursive;
+    color: brown;
+
+}
+
+input{
+
+    background-color: crimson;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 25px;
+    /* font-size: 20px;
+    font-weight: 300;
+    font-family: 'Ranchers', cursive; */
+}
+.contenedor{
+
+    /* background-color: darkseagreen; */
+    width: 60%;
+    height: 60vh;
+
+    padding:20px;
+    position: absolute;
+    top:5%;
+    left:20%;
+    
+
+    
+}
+.contenedor-form{
+
+    /* background-color: blue; */
+    width: auto;
+    height:200px;
+    padding-left:40%;
+    margin-top:200px;
+
+
+}
