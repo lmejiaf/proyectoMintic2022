@@ -1,0 +1,14 @@
+.contenedor{
+    width: 800px; 
+    height: 800px; 
+    background-color: rgba(230, 33, 15, 0.561);
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.cuadro{
+    width:200px;
+    height: 200px;
+    background-color: darkorchid;
+    display:inline-block;
+}
