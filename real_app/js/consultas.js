@@ -18,8 +18,8 @@ let card = (item) => `
         <img width="100%" height="400px" src="${item.urlImagen}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${item.nombre}</h5>
-            <h6 class="card-title">${item.precio} COP</h6>
-            <p class="card-text">${item.descripcion}.</p>
+            <h6 class="card-title">${item.precio} COP ${item.tipo=="unitario"?" la unidad ":" la libra"}</h6>
+            <p class="card-text">${item.descripcion.length!==0?item.descripcion:""}</p>
         </div>
     </div>
 </div>
