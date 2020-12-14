@@ -15,7 +15,7 @@ let card = (item) => `
 
 <div class="col">
     <div class="card">
-        <img width="100%" height="400px" src="${item.urlImagen}" class="card-img-top" alt="...">
+        <img width="100%" height="400px" src="${item.urlImagen}" class="card-img-top" alt="${item.nombre}" on>
         <div class="card-body">
             <h5 class="card-title">${item.nombre}</h5>
             <h6 class="card-title">${item.precio} COP ${item.tipo=="unitario"?" la unidad ":" la libra"}</h6>
@@ -37,6 +37,7 @@ function buscarPorIdentificador(identificador) {
     let res = datos.filter(item => item.identificador.toString().trim().includes(identificador.toString().trim()))
     renderOnTime(res);
 }
+
 
 
 // funciones de renders
